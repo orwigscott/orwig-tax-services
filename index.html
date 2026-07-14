@@ -74,10 +74,25 @@
   <section id="contact" class="section">
     <div class="container">
       <h2>Contact</h2>
-      <p>Ready to get started? Reach out and we'll follow up shortly.</p>
-      <ul class="contact-list">
-        <li>Email: <a href="mailto:scott@orwigtaxservices.com">scott@orwigtaxservices.com</a></li>
-      </ul>
+      <p>Ready to get started? Send a message below, or email
+        <a href="mailto:scott@orwigtaxservices.com">scott@orwigtaxservices.com</a> and we'll follow up shortly.</p>
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnjeqkkl" method="POST">
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input id="cf-name" type="text" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input id="cf-email" type="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+        <button type="submit" class="btn btn-submit">Send Message</button>
+        <p id="formStatus" class="form-status" role="status"></p>
+      </form>
     </div>
   </section>
 
