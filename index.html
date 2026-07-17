@@ -4,50 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orwig Tax Services</title>
-  <meta name="description" content="Orwig Tax Services — tax preparation, tax planning, and accounting services.">
+  <meta name="description" content="Orwig Tax Services — tax preparation, tax planning, and advisory services for individuals and businesses. Colorado-based CPA serving clients nationwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#top" class="logo">Orwig Tax Services</a>
+      <a href="#top" class="logo"><span class="logo-mark">O</span>Orwig Tax Services</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="site-nav" id="siteNav">
         <a href="#services">Services</a>
         <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
       </nav>
     </div>
   </header>
 
   <section id="top" class="hero">
-    <div class="container">
-      <h1>Straightforward Tax Help You Can Trust</h1>
-      <p>Tax preparation, planning, and advisory services for individuals and businesses.</p>
-      <a href="#contact" class="btn">Get in Touch</a>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Colorado CPA &middot; Serving clients nationwide</p>
+        <h1>Straightforward tax help you can trust.</h1>
+        <p class="hero-sub">Tax preparation, planning, and advisory services for individuals and businesses &mdash;
+          clear answers, proactive strategy, and honest guidance.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Send a Message</a>
+          <a href="#services" class="btn btn-ghost">Explore Services</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="260" cy="140" r="130" fill="#1B7A73" opacity="0.12"/>
+          <circle cx="150" cy="260" r="100" fill="#24303B" opacity="0.08"/>
+          <circle cx="290" cy="270" r="70" fill="#1B7A73" opacity="0.25"/>
+          <circle cx="120" cy="120" r="14" fill="#1B7A73"/>
+          <circle cx="330" cy="80" r="8" fill="#24303B" opacity="0.5"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-strip">
+    <div class="container trust-inner">
+      <div class="trust-item">
+        <span class="trust-value">CPA</span>
+        <span class="trust-label">Licensed &amp; credentialed</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-value">10+ Years</span>
+        <span class="trust-label">Experience in tax</span>
+      </div>
+      <div class="trust-item">
+        <span class="trust-value">Nationwide</span>
+        <span class="trust-label">Remote-friendly practice</span>
+      </div>
     </div>
   </section>
 
   <section id="services" class="section">
     <div class="container">
+      <p class="eyebrow">What we do</p>
       <h2>Services</h2>
       <div class="service-grid">
         <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z"/><path d="M9 12h6M9 16h6"/></svg>
+          </div>
           <h3>Tax Preparation</h3>
-          <p>Accurate, on-time filing for individuals, partnerships, and small businesses.</p>
+          <p>Accurate returns, filed on time &mdash; carefully prepared, thoughtfully positioned, and clearly
+            explained, not just processed.</p>
         </div>
         <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg>
+          </div>
           <h3>Tax Planning</h3>
           <p>Year-round strategy to reduce your tax burden and plan ahead with confidence.</p>
         </div>
         <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+          </div>
           <h3>IRS Representation</h3>
           <p>Support and representation if you receive a notice or need to resolve an issue with the IRS.</p>
         </div>
         <div class="service-card">
+          <div class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3.5"/></svg>
+          </div>
           <h3>Business &amp; AI Advisory</h3>
           <p>Practical guidance to help your business run smarter &mdash; including hands-on help putting AI to
             work in your operations, drawn from building AI workflows in a real tax practice.</p>
@@ -57,25 +107,38 @@
   </section>
 
   <section id="about" class="section alt">
-    <div class="container">
-      <h2>About</h2>
-      <p>Orwig Tax Services is the practice of Scott Orwig, a CPA with more than a decade of experience in tax.
-        His experience spans individual taxation, partnership and pass-through taxation, estate, gift, and trust
-        taxation, and planning for high-net-worth individuals and families. Beyond client work, Scott teaches tax
-        professionals across the country &mdash; leading continuing-education courses on individual, partnership,
-        and business taxation &mdash; which means the advice you get reflects both current law and real-world
-        practice.</p>
-      <p>Based in Colorado and working with clients remotely nationwide, the practice serves individuals and
-        businesses that want more than a once-a-year filing: clear answers, proactive planning, and honest
-        guidance when a question goes beyond taxes.</p>
+    <div class="container about-inner">
+      <div class="about-portrait">
+        <div class="portrait-block">
+          <img src="images/scott-headshot.jpg" alt="Scott Orwig, CPA" class="portrait-photo">
+        </div>
+        <p class="portrait-caption">Scott Orwig, CPA</p>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">Who you'll work with</p>
+        <h2>About</h2>
+        <p>Orwig Tax Services is the practice of Scott Orwig, a CPA with more than a decade of experience in tax.
+          His experience spans individual taxation, partnership and pass-through taxation, estate, gift, and trust
+          taxation, and planning for high-net-worth individuals and families. Beyond client work, Scott teaches continuing-education
+          courses to tax professionals across the country &mdash; so the advice you get reflects both current law
+          and real-world experience.</p>
+        <p>Based in Colorado and working with clients remotely nationwide, the practice serves individuals and
+          businesses that want more than a once-a-year filing: clear answers, proactive planning, and honest
+          guidance when a question goes beyond taxes.</p>
+      </div>
     </div>
   </section>
 
   <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Ready to get started? Send a message below, or email
-        <a href="mailto:scott@orwigtaxservices.com">scott@orwigtaxservices.com</a> and we'll follow up shortly.</p>
+    <div class="container contact-inner">
+      <div class="contact-copy">
+        <p class="eyebrow">Let's talk</p>
+        <h2>Contact</h2>
+        <p>Ready to get started? Fill out the form and we'll follow up shortly &mdash; usually within one
+          business day.</p>
+        <p class="contact-email">Or reach out directly:<br>
+          <a href="mailto:scott@orwigtaxservices.com">scott@orwigtaxservices.com</a></p>
+      </div>
       <form id="contactForm" class="contact-form" action="https://formspree.io/f/xnjeqkkl" method="POST">
         <div class="form-row">
           <label for="cf-name">Name</label>
@@ -90,14 +153,15 @@
           <textarea id="cf-message" name="message" rows="5" required></textarea>
         </div>
         <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
-        <button type="submit" class="btn btn-submit">Send Message</button>
+        <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
         <p id="formStatus" class="form-status" role="status"></p>
       </form>
     </div>
   </section>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-inner">
+      <p class="footer-brand"><span class="logo-mark">O</span>Orwig Tax Services</p>
       <p>&copy; <span id="year"></span> Orwig Tax Services. All rights reserved.</p>
     </div>
   </footer>
